@@ -5,9 +5,9 @@
 `Cargo.toml`是配置文件，映射到哈希表
 
 # 新建项目
-`cargo new hello_world --bin`
+`cargo new hello_world`
 
-我们传递了参数 --bin，因为我们正在创建一个二进制程序：如果我们创建的是一个库文件，就不要这个参数了。
+默认是`--bin`, 可选`--lib`
 
 # 编译
 `cargo build`
